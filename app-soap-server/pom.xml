@@ -7,19 +7,21 @@
     <artifactId>app-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>app-services</artifactId>
-  <packaging>jar</packaging>
-  <name>app-services</name>
+  <artifactId>app-soap-server</artifactId>
+  <name>app-soap-server</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <dependencies>
-      
-      
-    <!-- DEPENDENCIA -->
+  
+  
+        <!-- DEPENDENCIA -->
     <dependency>
 	    <groupId>ar.com.educacionit</groupId>
-	    <artifactId>app-repository</artifactId>
+	    <artifactId>app-services</artifactId>
 	    <version>1.0.0-SNAPSHOT</version>
     </dependency>
-      
+  
   </dependencies>
 </project>
