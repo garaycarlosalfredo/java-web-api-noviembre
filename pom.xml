@@ -21,5 +21,6 @@
     <module>app-services</module>
     <module>app-web</module>
     <module>app-soap-server</module>
+    <module>ws-soap-client</module>
   </modules>
 </project>

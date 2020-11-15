@@ -1,4 +1,4 @@
-package ar.com.educacionit.repository;
+package ar.com.educacionit.client;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
